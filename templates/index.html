@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App Search</title>
+</head>
+<body>
+    <h2>Type in whatever you wish to search</h2>
+    <pre>
+        The web application will return a brief summary of the topic along with all
+        the useful links available regarding the topic scraped form the web using
+        requests library. This is a Flask application.
+
+        I hope you like it!
+
+        PS use <a href="https://chrome.google.com/webstore/detail/jsonview/gmegofmjomhknnokphhckolhcffdaihd">This</a> extension to properly view the JSON output the application returns thanks!
+    </pre>
+    <form action="/" method="POST">
+        <span>Enter Query name</span>
+        <input type="text" name="name">
+        <input type="submit" value="submit">
+    </form>
+
+</body>
+</html>
