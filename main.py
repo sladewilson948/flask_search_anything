@@ -1,5 +1,4 @@
-from django.shortcuts import redirect
-from flask import *
+from flask import Flask, jsonify, request, render_template, redirect, url_for
 from requests_html import HTMLSession
 
 SECRET_KEY = "super secret"
